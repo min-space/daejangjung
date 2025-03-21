@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
-  $(".depth2").hide();
+  // $(".depth2").hide();
 
-  $(".gnb > li").hover(function () {
-    $(this).find(".depth2").stop().slideToggle();
-  });
+  // $(".gnb > li").hover(function () {
+  //   $(this).find(".depth2").stop().slideToggle();
+  // });
 
 
   const mv = new Swiper(".mv", {
